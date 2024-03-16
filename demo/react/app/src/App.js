@@ -26,17 +26,32 @@ class App extends Component {
             //   name: 'Change to year before',
             //   format: '{0} %'
             // }
-            change: {
-              name: 'Change to year before',
-              format: '{0} %'
+            RCDI: {
+              name: 'Relative Cultural Distance Index (RCDI)',
+              format: '{0}'
             }
           },
-          applyData: 'gdp',
+          applyData: 'RCDI',
           values: {
-            AF: { gdp: 587, change: 4.73 },
-            AL: { gdp: 4583, change: 11.09 },
-            DZ: { gdp: 4293, change: 10.01 }
-            // ...
+            'SE' : {RCDI: 0.0},
+            'NO' : {RCDI: 0.5},
+            'FI' : {RCDI: 1.0},
+            'GB' : {RCDI: 1.5},
+            'DE' : {RCDI: 2.0},
+            'US' : {RCDI: 2.5},
+            'PL' : {RCDI: 3.0},
+            'IL' : {RCDI: 3.5},
+            'GR' : {RCDI: 4.0},
+            'HR' : {RCDI: 4.5},
+            'CL' : {RCDI: 5.0},
+            'BA' : {RCDI: 5.5},
+            'RU' : {RCDI: 6.0},
+            'RS' : {RCDI: 6.5},
+            'TR' : {RCDI: 7.0},
+            'IR' : {RCDI: 7.5},
+            'CN' : {RCDI: 8.0},
+            'IQ' : {RCDI: 8.5},
+            'SO' : {RCDI: 9.0}
           }
         }
       });
