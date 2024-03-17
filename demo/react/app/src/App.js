@@ -15,19 +15,8 @@ class App extends Component {
         targetElementID: 'svgMap',
         data: {
           data: {
-            // gdp: {
-            //   name: 'GDP per capita',
-            //   format: '{0} USD',
-            //   thousandSeparator: ',',
-            //   thresholdMax: 50000,
-            //   thresholdMin: 1000
-            // },
-            // change: {
-            //   name: 'Change to year before',
-            //   format: '{0} %'
-            // }
             RCDI: {
-              name: 'Relative Cultural Distance Index (RCDI)',
+              name: 'Relative Cultural Distance Index : ',
               format: '{0}'
             }
           },
